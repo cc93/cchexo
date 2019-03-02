@@ -82,7 +82,13 @@ search:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/cc93/cchexo.git
-  branch: public
+- type: git
+  repo: https://github.com/hnlichong/cchexo.git
+  branch: gh-pages
+- type: git
+  repo: https://git.dev.tencent.com/hnlichong/cchexo.git
+  branch: coding-pages
+
+
+
 
